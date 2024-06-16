@@ -1,0 +1,90 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 9vw; */
+  height: 12vh;
+  width: 100%;
+  padding: 3.5vw 6vw;
+  background-color: #111;
+  z-index: 10;
+  align-items: center;
+  /* background-color: red; */
+}
+
+nav span svg {
+  width: 9.1vw;
+  margin-right: 10vw;
+}
+
+nav .nav-middle {
+  display: flex;
+  gap: 2vw;
+  text-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7vw;
+}
+
+nav .nav-middle h4 {
+  font-size: 0.85vw;
+}
+
+nav .nav-middle h5 {
+  margin-bottom: 1vw;
+  /* background-color: red; */
+  display: none;
+  overflow: hidden;
+}
+
+nav .btn span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  background-color: var(--primarycolor);
+  font-size: 1vw;
+  font-family: var(--secondfont);
+  white-space: nowrap;
+  /* padding: 1vw 1vw; */
+  border: none;
+  border-radius: 2vw;
+  color: var(--fontcolor);
+}
+
+nav .btn p {
+  padding-left: 1vw;
+  /* background-color: yellow; */
+}
+
+nav .btn span i {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1vw;
+  height: 1vw;
+  fill: var(--fontcolor);
+  padding: 1.5vw;
+  transition: transform 0.6s ease-in-out;
+}
+
+nav .btn span:hover i {
+  border-radius: 100%;
+  background-color: var(--primarycolor);
+}
+
+nav .btn span:hover {
+  background-color: transparent;
+}
+
+#nav-bottom {
+  width: 87.6%;
+  height: 0vh;
+  position: absolute;
+  /* background-color: red; */
+  top: 100%;
+  background-color: #111;
+  z-index: 9;
+  border-bottom: 1px solid #fff;
+}
